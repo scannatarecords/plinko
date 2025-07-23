@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Plinko Game</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Plinko Game - Stake Style</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🎯 Plinko Game</h1>
+  <h1>🎯 Stake-Style Plinko Game</h1>
   <div id="game-container">
-    <canvas id="plinkoCanvas" width="400" height="600"></canvas>
-    <p>Balance: $<span id="balance">0</span></p>
-    <button onclick="dropBall()">Drop Ball</button>
+    <canvas id="plinkoCanvas" width="500" height="700"></canvas>
+    <div id="controls">
+      <p>Balance: $<span id="balance">0</span></p>
+      <button id="dropBtn">Drop Ball</button>
+    </div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
